@@ -1,0 +1,16 @@
+=head1 NAME
+
+SplitFromSubjectColumn
+
+=head1 DESCRIPTION
+
+In the ticket overviews (ticket status view and ticket queue view) the sender and the subject (or ticket title) is in one column. This add on splits this column into to columns.
+
+=head1 LIMITATIONS
+
+As the ticket search cannot sort by "from" or "subject" of the last mail, those two columns still trigger a "sort by title".
+
+=head1 AUTHOR
+
+Renee Baecker C<info@feature-addons.de>
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otrs_package version="1.0">
+    <!-- GENERATED WITH OTRS::OPM::Maker::Command::sopm (1.21) -->
+    <Name>SplitFromSubjectColumn</Name>
+    <Version>3.3.1</Version>
+    <Framework>3.3.x</Framework>
+    <Vendor>Perl-Services.de</Vendor>
+    <URL>http://www.perl-services.de</URL>
+    <Description Lang="de">Teilt die Von/Betreff-Spalte in Ticketübersichten in zwei Spalten</Description>
+    <Description Lang="en">Split the from/subject column in ticket overviews into to columns</Description>
+    <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
+    <Filelist>
+        <File Permission="644" Location="Kernel/Config/Files/SplitFromSubjectColumn.xml" />
+        <File Permission="644" Location="Kernel/Output/HTML/OutputFilterSplitFromSubjectColumn.pm" />
+        <File Permission="644" Location="doc/SplitFromSubjectColumn.json" />
+        <File Permission="644" Location="doc/en/SplitFromSubjectColumn.pod" />
+    </Filelist>
+</otrs_package>
