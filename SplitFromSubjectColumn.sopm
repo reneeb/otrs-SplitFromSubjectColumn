@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <otrs_package version="1.0">
-    <!-- GENERATED WITH OTRS::OPM::Maker::Command::sopm (1.21) -->
+    <!-- GENERATED WITH OTRS::OPM::Maker::Command::sopm (1.25) -->
     <Name>SplitFromSubjectColumn</Name>
-    <Version>3.3.1</Version>
-    <Framework>3.3.x</Framework>
+    <Version>4.0.1</Version>
+    <Framework>4.0.x</Framework>
     <Vendor>Perl-Services.de</Vendor>
     <URL>http://www.perl-services.de</URL>
     <Description Lang="de">Teilt die Von/Betreff-Spalte in Ticketübersichten in zwei Spalten</Description>
