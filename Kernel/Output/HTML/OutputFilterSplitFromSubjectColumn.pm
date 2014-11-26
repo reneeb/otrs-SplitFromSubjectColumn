@@ -14,7 +14,11 @@ use warnings;
 
 use List::Util qw(first);
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
+
+our @ObjectDependencies = qw(
+    Kernel::System::Web::Request
+);
 
 sub new {
     my ( $Type, %Param ) = @_;
@@ -22,14 +26,6 @@ sub new {
     # allocate new hash for object
     my $Self = {};
     bless( $Self, $Type );
-
-    # get needed objects
-    for my $Object (
-        qw(MainObject ConfigObject LogObject LayoutObject ParamObject UserObject EncodeObject)
-        )
-    {
-        $Self->{$Object} = $Param{$Object} || die "Got no $Object!";
-    }
 
     $Self->{UserID} = $Param{UserID};
 
@@ -39,9 +35,11 @@ sub new {
 sub Run {
     my ( $Self, %Param ) = @_;
 
+    my $ParamObject = $Kernel::OM->Get('Kernel::System::Web::Request');
+
     # get template name
     $Param{Templates} ||= { AgentTicketQueue => 1 };
-    my $Action = $Self->{ParamObject}->GetParam( Param => 'Action' );
+    my $Action = $ParamObject->GetParam( Param => 'Action' );
 
     return 1 if !$Action;
     return 1 if !$Param{Templates}->{$Action};
