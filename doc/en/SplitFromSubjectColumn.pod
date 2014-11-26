@@ -10,6 +10,10 @@ In the ticket overviews (ticket status view and ticket queue view) the sender an
 
 As the ticket search cannot sort by "from" or "subject" of the last mail, those two columns still trigger a "sort by title".
 
+=head1 REPOSITORY & BUGTRACKER
+
+The code repository and a bugtracker are available at L<http://github.com/reneeb/otrs-SplitFromSubjectColumn>.
+
 =head1 AUTHOR
 
 Renee Baecker C<info@feature-addons.de>
