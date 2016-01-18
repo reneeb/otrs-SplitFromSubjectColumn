@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-<otrs_config version="1.0" init="Application">
+<?xml version="1.0" encoding="utf-8"?>
+<otrs_config version="1.0" init="Config">
     <ConfigItem Name="Frontend::Output::FilterContent###OutputFilterSplitFromSubjectColumn" Required="0" Valid="1">
         <Description Translatable="1">Module to split the from/subject column in ticket overviews.</Description>
         <Group>SplitFromSubjectColumn</Group>
         <SubGroup>OutputFilter</SubGroup>
         <Setting>
             <Hash>
-                <Item Key="Module">Kernel::Output::HTML::OutputFilterSplitFromSubjectColumn</Item>
+                <Item Key="Module">Kernel::Output::HTML::FilterContent::SplitFromSubjectColumn</Item>
                 <Item Key="Debug">0</Item>
                 <Item Key="Templates">
                     <Hash>
