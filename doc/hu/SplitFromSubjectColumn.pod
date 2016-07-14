@@ -1,0 +1,28 @@
+=encoding utf-8
+
+=head1 NÉV
+
+SplitFromSubjectColumn - A feladó/tárgy oszlop felosztása a jegyáttekintőkben két oszlopra.
+
+=head1 LEÍRÁS
+
+A jegyáttekintőkben (jegy állapot nézet és jegy várólista nézet) a küldő és a tárgy (vagy jegycím)
+egy oszlopban van. Ez a bővítmény ezt az oszlopot két oszlopra osztja fel.
+
+=head1 KORLÁTOZÁSOK
+
+Mivel a jegykeresés nem képes a legutolsó levél „feladója” vagy „tárgya” szerint rendezni, ezért
+az a két oszlop továbbra is aktiválja a „rendezés cím szerint” lehetőséget.
+
+=head1 TÁROLÓ ÉS HIBAKÖVETŐ
+
+A kódtároló és hibakövető a L<http://github.com/reneeb/otrs-SplitFromSubjectColumn> címen érhető el.
+
+=head1 SZERZŐ
+
+Renée Bäcker C<info@feature-addons.de>
+
+=head1 MAGYAR FORDÍTÁS
+
+A magyar fordítást az OTRS-megoldások csapata készítette.
+Copyright (C) 2016 Úr Balázs, L<http://otrs-megoldasok.hu>

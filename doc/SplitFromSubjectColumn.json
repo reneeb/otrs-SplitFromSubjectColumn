@@ -11,7 +11,8 @@
     },
     "license": "GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007",
     "description" : {
-        "en": "Split the from/subject column in ticket overviews into to columns",
-        "de": "Teilt die Von/Betreff-Spalte in Ticketübersichten in zwei Spalten"
+        "en": "Split the from/subject column in ticket overviews into two columns.",
+        "de": "Teilt die Von/Betreff-Spalte in Ticketübersichten in zwei Spalten.",
+        "hu": "A feladó/tárgy oszlop felosztása a jegyáttekintőkben két oszlopra."
     }
 }
