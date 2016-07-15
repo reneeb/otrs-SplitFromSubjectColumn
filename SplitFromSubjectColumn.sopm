@@ -7,13 +7,16 @@
     <Framework>5.0.x</Framework>
     <Vendor>Perl-Services.de</Vendor>
     <URL>http://www.perl-services.de</URL>
-    <Description Lang="de">Teilt die Von/Betreff-Spalte in Ticketübersichten in zwei Spalten</Description>
-    <Description Lang="en">Split the from/subject column in ticket overviews into to columns</Description>
+    <Description Lang="de">Teilt die Von/Betreff-Spalte in Ticketübersichten in zwei Spalten.</Description>
+    <Description Lang="en">Split the from/subject column in ticket overviews into two columns.</Description>
+    <Description Lang="hu">A feladó/tárgy oszlop felosztása a jegyáttekintőkben két oszlopra.</Description>
     <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
     <Filelist>
         <File Permission="644" Location="Kernel/Config/Files/SplitFromSubjectColumn.xml" />
+        <File Permission="644" Location="Kernel/Language/hu_SplitFromSubjectColumn.pm" />
         <File Permission="644" Location="Kernel/Output/HTML/FilterContent/SplitFromSubjectColumn.pm" />
         <File Permission="644" Location="doc/SplitFromSubjectColumn.json" />
         <File Permission="644" Location="doc/en/SplitFromSubjectColumn.pod" />
+        <File Permission="644" Location="doc/hu/SplitFromSubjectColumn.pod" />
     </Filelist>
 </otrs_package>

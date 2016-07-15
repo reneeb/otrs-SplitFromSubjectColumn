@@ -1,10 +1,12 @@
+=encoding utf-8
+
 =head1 NAME
 
-SplitFromSubjectColumn
+SplitFromSubjectColumn - Split the from/subject column in ticket overviews into two columns.
 
 =head1 DESCRIPTION
 
-In the ticket overviews (ticket status view and ticket queue view) the sender and the subject (or ticket title) is in one column. This add on splits this column into to columns.
+In the ticket overviews (ticket status view and ticket queue view) the sender and the subject (or ticket title) is in one column. This add-on splits this column into to columns.
 
 =head1 LIMITATIONS
 
@@ -16,5 +18,5 @@ The code repository and a bugtracker are available at L<http://github.com/reneeb
 
 =head1 AUTHOR
 
-Renee Baecker C<info@feature-addons.de>
+Renée Bäcker C<info@feature-addons.de>
 
